@@ -1,0 +1,26 @@
+package tabels;
+
+import java.util.Scanner;
+
+public class Tabels {
+
+	public static void main(String[] args) {
+		
+		Scanner s= new Scanner(System.in);
+		int n;
+		System.out.println("Enter number :");
+		n=Integer.parseInt(s.nextLine());
+		
+		System.out.println("Tabels for is "+n);
+		for (int i=0;i<=10;i++) {
+			System.out.println(n+" x "+i+" = "+n*i);
+		}
+		
+		s.close();
+		
+		
+		
+
+	}
+
+}

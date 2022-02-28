@@ -1,0 +1,10 @@
+package tabels;
+
+public class Tabels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package serialization;
+
+public class Employee {
+	
+	public int id;
+	public String Name;
+	public double salary;
+	
+	
+	public Employee(int id, String Name, double salary){
+		this.id=id;
+		this.Name=Name;
+		this.salary=salary;
+	}
+
+	public static void main(String[] args) {
+		
+		Employee em=new Employee(1,"San",23000.5);
+
+	}
+
+}
